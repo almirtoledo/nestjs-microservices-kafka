@@ -10,25 +10,43 @@
 
 ## Comandos
 
-> docker compose -f kafka.yml up -d
-> docker compose -f db.yml up -d
-> npm i
-> npm prisma migrate deploy
-> npm prisma generate
+```bash
+$ docker compose -f kafka.yml up -d
+```
+
+```bash
+$ docker compose -f db.yml up -d
+```
+
+```bash
+$ npm i
+```
+
+```bash
+$ npm prisma migrate deploy
+```
+
+```bash
+$ npm prisma generate
+```
 
 Consumers
 
-> npm run start:dev consumer
-> npm run start:dev consumer-1
+```bash
+$ npm run start:dev consumer
+```
+
+```bash
+$ npm run start:dev consumer-1
+```
 
 Producer
 
-> npm run start:dev producer
+```bash
+$ npm run start:dev producer
+```
 
 #### Otimize o MariaDB
-
-- innodb_flush_method: para evitar a gravação duplicada no buffer do sistema operacional.
-  > innodb_flush_method = O_DIRECT
 
 leia:
 
