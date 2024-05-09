@@ -24,3 +24,13 @@ Consumers
 Producer
 
 > npm run start:dev producer
+
+#### Otimize o MariaDB
+
+- innodb_flush_method: para evitar a gravação duplicada no buffer do sistema operacional.
+  > innodb_flush_method = O_DIRECT
+
+leia:
+
+- https://mariadb.com/docs/server/storage-engines/innodb/operations/
+- https://mariadb.com/kb/en/configuring-mariadb-for-optimal-performance/
