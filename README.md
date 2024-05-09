@@ -3,7 +3,7 @@
 #### Proposta
 
 - Criar 5000 mil usuários
-- Criar 100 artigos para cada usuário
+- Criar 100 artigos para cada usuário (500.000 artigos)
 - Consumir com dois serviços no mesmo tópico, sem replicar mensagens
 
 **Testado com Node na versão 20.13.0 (Core i5 13° 20-threds / 32G ram)**
